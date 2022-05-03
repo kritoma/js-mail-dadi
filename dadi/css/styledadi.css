@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    padding: 40px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    border: none;
+    padding: 8px 15px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}
+
+.win, .draw, .lose {
+    display: none;
+    color: white;
+    font-size: 30px;
+}
+
+.win{
+    background-color: darkred;
+}
+
+.lose{
+    background-color: black;
+}
+
+.draw{
+    background-color: green;
+}
+
+.active{
+    display: block;
+}
